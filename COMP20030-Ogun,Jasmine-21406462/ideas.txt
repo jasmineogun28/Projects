@@ -1,0 +1,118 @@
+OPERATION: LUTE-legend
+musical instrument 
+
+OPTION 2:  
+Design a website targeting an audience interested in learning one of the
+following: musical instruments; foreign languages; or a STEM subject. Although the
+navigational structure of the website will be a particularly important design decision, the
+layout and presentation of the website should be such to maintain the audience’s interest.
+Most importantly, for whatever domain you choose, you need to make design decisions
+that are appropriate for the target audience identified
+
+ukulele underground
+uber uke 
+ultra uke 
+tab temple
+rhapsody -> A  rhapsody is a one-movement piece of music that explores 
+multiple free-flowing sections that don’t necessarily relate to one another.
+maverick tabs
+universal uke -> "Music is the universal language of mankind"
+** lute legend
+uke legend
+music speaks
+
+
+pages (min. 5):
+intro page
+history page
+fun fact page
+famous people page
+beginner chords
+care / tools 
+
+color scheme:
+** Royal Blue #00539C, Peach #EEA47F
+
+Lavender #E2D1F9, Teal #317773
+
+Light Purple #AA96DA, Mint #C5FAD5, Butter #FFFFD2
+
+Crimson SKy #CF6766, Indigo #30415D, Ultramarine #031424, Light Blue #8EAEBD
+
+** Aqua #6BBAA7, Sunshine #FBA100, Lavender #6C648B, Dusty Rose #B6A19E
+
+
+#1a3a50, #006692, #8a92a6, #ffe3a4, #f5a67e
+
+Final: #30415d, #00539c, #eea47f, #ffe9c2, #ffffd2
+
+HOME
+
+when full screen, have text overlapping over the image
+when having a screen / less than 800px (phone screen size?), text goes below the image
+decide the colour for the text and text box background
+put inside divs to use CSS grid to display???
+
+bootstrap for navigation bar? or can it be done with javascript
+menu icon on side of the page in subsequent pages? or keep nav-bar.php inclusion
+
+find implementation for javascript
+-> carousel image on home page/ gif of a person playing an instrument
+
+SONGS
+Lesson 1- complete beginner
+2-> intermediate
+3-> not an expert but a slightly harder song
+
+DISCOVER
+diff types of ukulele
+history -> origin, popularisation
+
+RESOURCES
+app to tune 
+places to buy
+accessories
+harder tabs
+
+USEFUL TIPS
+scrap tips page? not sure what to put there
+maybe include it as a button feature of the resources page
+
+FUN FACTS
+a quirky bit of info
+celebs you didn't know play the instrument
+fake people to follow online??? 
+
+
+EXTRA
+maybe other pages can feature other colour schemes?
+find a way to make slight variations while keeping the general gist of
+the main theme
+
+find out how much info is meant to be on each page
+decide whether to make the home page .php or .html and what that means
+for feautre implementation
+
+JAVASCRIPT???->  to add accessibility features (increase font, dark mode)
+
+divide images and web pages into folders to make it easier to navigate
+^^ when completed 
+
+for songs page, use javascript to display songs for which
+level of playin they are
+-> add event listener
+-> use php instead
+
+LEFT TO DO:
+--**PDF 
+--prepare presentation
+
+-light and dark mode -> js
+-accesibility font -> js
+
+https://www.pinterest.ie/pin/457819118375026114/
+https://www.pinterest.ie/pin/824088431805702923/
+https://www.pinterest.ie/pin/824088431805586210/
+https://www.pinterest.ie/pin/505669864419524670/
+https://www.pinterest.ie/pin/446349013051394091/
+https://pxhere.com/en/photo/1131686

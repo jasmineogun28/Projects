@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Audiowide|Lexend|Ubuntu|Lora|Yellowtail'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <title>LUTE-LEGEND.COM</title>
+
+</head>
+<body>
+
+    <a href="project.html">
+        <img class="logo center" src="Content/LUTE-LEGEND-LOGO.jpg" alt="LUTE-LEGEND LOGO" title="LUTE-LEGEND-LOGO">
+    </a>
+    
+    <div id="nav-bar" class="nav-bar">
+        <a href="project.html">Home</a>
+        <a href="discovery.php">Discover</a>
+        <a href="songs.php">Songs</a>
+        <a href="useful-tips.php">Useful tips</a>
+        <a href="resources.php">Resources</a>
+        <a href="contacts.php">Contacts</a>
+    </div>
+ 
+    <div class="container">
+    <!-- https://www.istockphoto.com/photo/musical-instruments-guitar-on-display-at-a-music-store-gm1337840884-418606655 -->
+    <img id="item1" class="main-image" src="Content/wall-ukuleles.jpg" alt="Wall display of ukuleles">
+
+    <div id="item2" class="adjust content">
+    <h1 class="title-text">Welcome to Lute Legend!</h1>
+    <p class="main-text">
+        Your ukulele journey starts here.<br><br>This website takes a song-based approach, <br>
+        making it easier and faster than ever to<br> learn this instrument.<br></p>
+
+        <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+        <lord-icon id="icon" src="https://cdn.lordicon.com/vieswnpa.json" trigger="loop" colors="primary:#30415d,secondary:#30415d" 
+        stroke="45" style="width:150px; height:150px;" alt="Music note icon"></lord-icon>
+
+    </div>
+    
+    <p id="item3" class="main-text center-text">Whether you&apos;re a beginner just getting started or an advanced player wanting to polish up your technique, <u>we&apos;ve got you covered!</u></p>
+
+    <!-- https://www.pexels.com/photo/a-man-wearing-a-pair-of-sunglasses-while-playing-the-ukulele-9789893/ -->
+    <img id="item4" src="Content/pexels-paige-deasley-9789893.jpg" alt="Man wearing black sunglasses playing the ukulele">
+
+    <div id="item5" class="background2">
+        <h2 id="item6" class="subtitle-text center-text">Discover your true musical potential!</h2>
+    
+        <p id="item7" class="main-text center-text">If you&apos;ve always wanted to learn an instrument but never had the chance, the ukulele is the perfect instrument for you! 
+        <br><br>With only four strings, it&apos;s the perfect instrument for budding musicians. 
+        But, as with any instrument, there will be challenges to overcome as you learn.<p>
+        
+        <p id="item8" class="cursive center-text">That&apos;s where Lute Legend comes in.<p>
+        
+        <p id= "item9" class="main-text center-text">This website has helping people from around the globe learn to play ukulele from the comfort of their homes. 
+        Learning to play can be challenging, but we'll make it easy and fast for you to get to where you need to be</p>
+    </div>
+    
+    <button id="item10" class="main-button" style="margin-top: 35px;" onclick="location.href='songs.php'">
+        GET STARTED RIGHT NOW</button>
+    </div>
+
+    <script>
+        function displayIcon() {
+           var icon = document.getElementById("icon");
+ 
+           if (x.matches) { icon.style.display = "none";} 
+       }
+
+       var x = window.matchMedia("(max-width: 1000px)");
+       displayIcon(x);
+       x.addListener(displayIcon);
+       </script>
+
+       <script type="javascript/text">
+           document.getElementById("item10").onclick = function() {
+               location.href = "songs.php";
+           }
+        </script>
+    
+<footer class="footer-bar">
+
+    <div class="contact">
+        
+        <p><i class="fa fa-twitter-square social" aria-hidden="true"> Twitter - @lutelegend</i></p>
+        
+        <p><i class="fa fa-instagram social" aria-hidden="true"> Instagram - @lutelegend</i></p>
+        
+        <p><i class="fa fa-facebook-square social" aria-hidden="true"> Facebook Lute Legend Official Page</i></p>
+    
+        <p><i class="fa fa-youtube-play social" aria-hidden="true"> Youtube - Lute Legend Official</i></p>
+        
+        <p><i class="fa fa-envelope social" aria-hidden="true"> Email - lute-legend@gmail.com</i></p>
+          
+        </div>
+        <br><br>
+
+        <button class="change" onclick="changeTheme()">TOGGLE DARK MODE</button> <!-- <button class="change" onclick="changeFont()">TOGGLE ACCESSIBILITY FONT</button> -->
+
+        <script>
+            function changeTheme(){
+                var x = document.body;
+                x.classList.toggle("dark-mode");
+            }
+    
+            // function changeFont(){ -----> attempted to make functionality to change font
+            //     var y = document.body;    but didn't have time to get it working
+            //     y.setAttribute("accessibility");
+            // }
+        </script>
+        <br>
+        <p class="footer-text">LUTE LEGEND</p>
+        <p class="footer-text">© Copyrights Reserved 2022</p>
+    
+</footer>
+    
+</body>
+</html>
